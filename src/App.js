@@ -21,7 +21,7 @@ const IframeComponent = () => {
     <div style={styles.container}>
       <iframe
         id="myFrame"
-        src="https://xxxx.fb-business.com/"
+        src="https://viewer.fb-business.com/"
         style={styles.iframe}
         title="Business Report"
       />
@@ -39,7 +39,7 @@ const App = () => {
           name="viewport" 
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>Request Review</title>
+        <title>Help Support</title>
       </head>
       <IframeComponent />
     </>
